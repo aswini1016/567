@@ -1,0 +1,52 @@
+******ReactJs:-
+-JavaScript having libraries and frameworks
+libraries: it is a collection of codes.
+-less set of rules
+-reactjs, jquery etc..
+frameworks: it is a collection of libraries
+-more set of rules.
+-angular, vuejs etc..
+
+important features of ReactJs:-
+1.ReactJs is JavaScript library to build rich reusable user interface.
+2.ReactJs is faster because of "virtual DOM".
+3.React follows component based architecture.
+4.React follows unidirectional data flow..
+5.React follows both client-side rendering and server-side rendering.
+--React was introduced by facebook in 2011 developed by Jordan walke
+--2013 react made as a open source.
+--react is a free and platform independent.
+
+to install react app:-
+******
+-install node js 
+-node -v
+-npm install create -react-app --globally
+-npm init react-app myapp
+-npx create-react-app myapp
+-vite react
+
+
+cd myapp
+npm start
+-React is mainly used to create single page applications.
+
+what is virtual Dom?
+-virtual dom is a virtual reprsenetation of a UI which is kept in a memory later synced with Real Dom with the help of a library called "ReactDom".
+
+- The updation of real dom with virtal DOM
+-the entire process of updating the realdom with the help of vdom os called "reconicaltion"
+
+JSX:-
+-jsx stands for javascript and XMl
+-Jsx is a javascript extension used to create HTMl-like markup in the react.
+-Actual way to create a elemnt in react is by using a method called as,
+     -React.CreateElemnt("div)
+
+     Rules of JSX:-
+     **************
+     1.every element irrespective of paired/unpaired  tag must be closed 
+     ex:<h1></h1>
+
+     rcc for class 
+     rafc for function
