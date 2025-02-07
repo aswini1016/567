@@ -63,12 +63,12 @@
 // hobbies={["chatting" , "playing"]}
 // />
 
-import React from 'react'
-import CBCStateEx from './propsex/CBCStateEx'
-const App = () => {
-  return (
-    <div><CBCStateEx/></div>
-  )
-}
+// import React from 'react'
+// import CBCStateEx from './propsex/CBCStateEx'
+// const App = () => {
+//   return (
+//     <div><CBCStateEx/></div>
+//   )
+// }
 
-export default App
+// export default App

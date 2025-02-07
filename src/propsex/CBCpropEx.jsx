@@ -1,20 +1,23 @@
-// !props
 import React, { Component } from 'react'
-import CBCPropEx from './propsex/CBCPropEx'
 
-export default class App extends Component {
-render() {
-return (
-<div>
-<CBCPropEx
-username="Vamshi"
-age={20}
-hobbies={["Playing" , "reading books" , "stock"]}
-address={{city:"sircilla", area:"Gandinagar"}}
-sendFun={function(){alert("hi i am vamshi") }}
-/>
-</div>
-)
+export default class CBCPropEx extends Component {
+  render() {
+    console.log(this);
+  return (
+    <div>CBCPropEx
+
+      <h1>{this.props.username}</h1>
+      <h2>{this.props.age}</h2>
+      {
+
+        this.props.hobbies.map(hobby=>{
+       return <li>{hobby}</li>
+      })
+    }
+
+    <h1>{this.props.address.city}</h1>
+    <button onClick={this.props. sendFun}>Click</button>
+   </div>
+     )
+  }
 }
-
-} 
