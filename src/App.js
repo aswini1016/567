@@ -73,18 +73,11 @@
 
 // export default App
 
-import logo from './logo.svg'
-import './App.css';
-import MyForm from './components/myForm';
-
-
-
-function App() {
+import React from 'react'
+import UseEffectEx from './UseEffect'
+ const App  = () => {
   return (
-    <div className="App">
-     <MyForm></MyForm>
-     </div>
-  );
+    <div><UseEffectEx/></div>
+  )
 }
-
 export default App;
